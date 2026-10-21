@@ -8,6 +8,6 @@ It will be able to add, subtract, multiply and divide two numbers, displaying th
 
 # How to run it
 
-From Week 3 folder: $ python3 calculator.py
+From Calculator folder: $ python3 calculator.py
 Enter the first number, the operator (+ - * /), then the second number.
 The program will print the result. 
