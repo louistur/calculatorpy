@@ -8,6 +8,8 @@ It will be able to add, subtract, multiply and divide two numbers, displaying th
 
 # How to run it
 
-From Calculator folder: $ python3 calculator.py
+You will need python3 installed, python3 --version.
+From Calculator folder: ./run.sh
 Enter the first number, the operator (+ - * /), then the second number.
 The program will print the result. 
+To exit, CTRL + C.
