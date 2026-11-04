@@ -13,3 +13,13 @@ From Calculator folder: ./run.sh
 Enter the first number, the operator (+ - * /), then the second number.
 The program will print the result. 
 To exit, CTRL + C.
+
+To test the program, first enter the virtual environment with:
+source /opt/python-venv/sccm-4910/bin/activate
+
+Then check that pytest is installed with:
+python3 -m pytest --version
+
+Then you can run the testing script by running ./check.sh in the calculator folder.
+Make sure that the program has worked correctly by running echo $? immediately after,
+a value of 0 means that the program worked successfully.

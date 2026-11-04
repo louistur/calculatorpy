@@ -3,3 +3,5 @@ __pycache__/
 .env
 keep-demo.log
 *.log
+.venv/
+.pytest_cache/
