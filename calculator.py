@@ -12,7 +12,6 @@ def multiply (a, b):
 def divide (a, b):
     return a / b
 
-
 def main():
     while True:
         a = float(input("First number: "))
@@ -28,13 +27,6 @@ def main():
             print("Result: ", divide(a, b))
         else:
             print("Unknown operator: ", op)
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     main()
