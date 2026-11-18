@@ -20,6 +20,8 @@ def test_divide_by_zero():
 	with pytest.raises(ZeroDivisionError):
 		divide(5, 0)
 
+def test_circleArea():
+        assert circleArea(-4) == "Error"
 
 @pytest.mark.parametrize("a, b, expected", [
 	(2, 3, 5), (-2, -3, -5), (0, 0, 0),
